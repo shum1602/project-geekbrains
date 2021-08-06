@@ -256,28 +256,28 @@ margin: 0 33px 0 0;
    
 }
 .block__woman {
-   background-image: url(/img/woman.jpg);
+   background-image: url(../img/woman.jpg);
 }
 .block__woman:hover {
-   background-image: url(/img/hwoman.png);
+   background-image: url(../img/hwoman.png);
 }
 .block__man {
-   background-image: url(/img/man.jpg);
+   background-image: url(../img/man.jpg);
 }
 .block__man:hover {
-   background-image: url(/img/hman.png);
+   background-image: url(../img/hman.png);
 }
 .block__kids {
-   background-image: url(/img/kids.jpg);
+   background-image: url(../img/kids.jpg);
 }
 .block__kids:hover {
-   background-image: url(/img/hkids.png);
+   background-image: url(../img/hkids.png);
 }
 .block__accesories {
-   background-image: url(/img/accesories.jpg);
+   background-image: url(../img/accesories.jpg);
 }
 .block__accesories:hover {
-   background-image: url(/img/haccesories.png);
+   background-image: url(../img/haccesories.png);
 }
 .popular{
    margin: 95px 0 0 0;
