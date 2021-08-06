@@ -444,7 +444,7 @@ margin: 0 33px 0 0;
 .subscribe{
    
    height: 448px;
-   background-image: url(img/photo\ subscribe.svg);
+   background-image: url(../img/photo\ subscribe.svg);
    background-size: cover;
 }
 .subscribe__wrap{
