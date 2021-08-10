@@ -46,15 +46,23 @@ margin: 0 33px 0 0;
    align-items: center;
    height: 100%;
    background: url(../img/decoration.png) no-repeat -228px bottom;
-  background-size: 70%;
+  background-size: 67%;
 
 }
 .intro__text{
  width:40%;
 }
+.intro__column{
+   border-left: 12px solid #F16D7F;
+}
 .intro__text h1{
    max-width: 421px;
-   border-left: 12px solid #F16D7F;
+   
+   padding: 0 0 0 16px;
+   font-size: 48px;
+}
+.intro__text h2{
+   max-width: 421px;
    padding: 0 0 0 16px;
    font-size: 32px;
 }
@@ -331,7 +339,8 @@ margin: 0 33px 0 0;
 }
 .card__item h3 a{
    
-   font-size: 15px;
+   font-size: 13px;
+   line-height: 16px;
    text-decoration: none;
    color: black;
 }
@@ -343,6 +352,8 @@ margin: 0 33px 0 0;
 .price{
    color: #F16D7F;
    margin: 18px 0 0 18px;
+   font-size: 16px;
+   line-height: 19px;
 }
 .pic_link {
    display: block;
@@ -416,6 +427,8 @@ margin: 0 33px 0 0;
    justify-content: center;
 }
 .button {
+   font-size: 16px;
+   line-height: 19px;
    background: transparent;
    border: 1px solid #FF6A6A;
    color: #FF6A6A;
@@ -444,17 +457,19 @@ margin: 0 33px 0 0;
    
 }
 .delivery__item h3{
+   font-size: 19.96px;
+   line-height: 24px;
    margin: 25px 0 0 0;
    color: #FBFBFB;
-   line-height: 24px;
+  
 }
 .delivery__item p{
    margin: 25px 0 0 0;
    color: #FBFBFB;
-   font-size: 13,97px;
-   line-height: 16,77px;
+   font-size: 13.97px;
+   line-height: 16.77px;
    text-align: center;
-   font-style: light;
+   
 }
 .subscribe{
    
@@ -479,26 +494,34 @@ margin: 0 33px 0 0;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-margin: 0 auto;
+   margin: 0 auto;
 }
 .form__item{
    margin: 150px 0 0 0;
    display: flex;
    flex-direction: column;
- align-items: center;
+   align-items: center;
 }
 
 .form__text{
+   font-size: 24px;
+   line-height: 40px;
    text-align: center;
 }
 .subscribe__text{
+   font-size: 18px;
+   line-height: 30px;
    text-align: center;
    margin: 0 0 32px 0;
 }
 .subscribe__mini{
-color: #222224;
-margin: 30px 0 0 0;
-   
+   font-size: 20px;
+   line-height: 24px;
+   color: #222224;
+   margin: 30px 0 0 0;
+}
+.subscribe__miniitaly{
+   font-style: italic;
 }
 .form__buttom {
    margin: 32px 0 0 0;
@@ -508,6 +531,8 @@ margin: 30px 0 0 0;
  
  
  .input__text {
+   font-size: 14px;
+   line-height: 17px;
    padding: 16px 10px;
    border-radius: 25px 0  0 25px;
    border: none;
@@ -530,6 +555,8 @@ margin: 30px 0 0 0;
    border: none;
    background-color: #F16D7F;
    color: white;
+   font-size: 14px;
+   line-height: 17px;
  }
  .footer {
    background-color: #222224;
