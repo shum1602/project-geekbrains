@@ -330,6 +330,7 @@ margin: 0 33px 0 0;
    background-image: url(../img/hwoman.png);
 }
 .block__man {
+   text-decoration: none;
    display: flex;
    align-items: center;
    background-image: url(../img/man.jpg);
