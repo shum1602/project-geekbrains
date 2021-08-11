@@ -336,9 +336,11 @@ margin: 0 33px 0 0;
    background-image: url(../img/man.jpg);
 }
 .block__man:hover {
+   
    background-image: url(../img/hman.png);
 }
 .block__kids {
+   text-decoration: none;
    background-image: url(../img/kids.jpg);
 }
 .block__kids:hover {
