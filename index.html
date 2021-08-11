@@ -7,6 +7,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <main>
@@ -17,28 +19,47 @@
                <img src="./img/Group 2.png" width="44" height="38" alt="">
             </a>
             <div>
-               <a href="#">
-                  <img src="./img/Forma 1.svg" width="27" height="28" alt="">
-               </a>
+               <form class="browse__form" action="">
+                  <input class="browse__input" type="search">
+                  <i class="fa fa-search"></i>
+               </form>
             </div>
          </div>
-         <div class="header__right">
-            <div class="header__item">
-               <a href="#">
-                  <img src="./img/burger.svg" width="32" height="23" alt="">
-               </a>
-            </div>
-            <div class="header__item">
-               <a href="#">
-                  <img src="./img/contact.svg" width="29" height="29" alt="">
-               </a>
-            </div>
-            <div class="header__item">
-               <a href="#">
-                  <img src="./img/basket.svg" width="32" height="29" alt="">
-               </a>
-            </div>
-         </div>
+         <nav class="header_right">
+            <ul class="header_right_menu">
+               <li class="menu_item"><a href="#"><img src="img/burger.svg" alt="menu"></a>
+                  <div class="menu_box">
+                     <h2 class="main_text menu-heading">MENU</h2>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">MAN</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Bags</a>
+                        <a class="main_text menu_link" href="#">Denim</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                     </div>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">WOMAN</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Jackets & Coats</a>
+                        <a class="main_text menu_link" href="#">Polos</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                        <a class="main_text menu_link" href="#">Shirts</a>
+                     </div>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">KIDS</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Jackets & Coats</a>
+                        <a class="main_text menu_link" href="#">Polos</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                        <a class="main_text menu_link" href="#">Shirts</a>
+                        <a class="main_text menu_link" href="#">Bags</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="menu_item"><a href="#"><img src="img/contact.svg" alt="personal-cab"></a></li>
+               <li><a href="#"><img src="img/basket.svg" alt="cart"></a></li>
+            </ul>
+         </nav>
       </div>
    </header>
    <section class="intro">
@@ -175,7 +196,7 @@
          <div class="form__item">
             <h2 class="form__text"> SUBSCRIBE</h2>
             <p class="subscribe_text">FOR OUR NEWLETTER AND PROMOTION</p>
-            <form action="">
+            <form action="#">
                <div class="form__buttom">
                   <input class="input__text" placeholder="Enter Your Email" type="email">
                   <input class="submit" value="Subscribe" type="submit">
