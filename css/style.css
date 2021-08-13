@@ -168,8 +168,6 @@ margin: 0 33px 0 0;
 .filter_menu_box {
    width: 360px;
    margin-right: 30px;
-   /* margin-left: 16px;
-   box-sizing: border-box; */
 }
 .filter_menu {
    position: relative;
@@ -223,7 +221,7 @@ margin: 0 33px 0 0;
    transition: 0.2s;
 }
 .filter_elements {
-   /* display: flex; */
+ 
    margin-right: 28px;
 }
 .filter_heading {
@@ -267,11 +265,6 @@ margin: 0 33px 0 0;
    line-height: 16px;
    color: #6F6E6E;
 }
-
-/* .fetured_catalog {
-   background-color: #F8F8F8;
-} */
-
 .catalog_link_box {
    display: flex;
 }
