@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<main>
+   <header class="header">
+      <div class="container header__wrap">
+         <div class="header__left">
+            <a class="header__logo" href="index.html">
+               <img src="./img/Group 2.png" width="44" height="38" alt="">
+            </a>
+            <div>
+               <form class="browse__form" action="">
+                  <input class="browse__input" type="search">
+                  <i class="fa fa-search"></i>
+               </form>
+            </div>
+         </div>
+         <nav class="header_right">
+            <ul class="header_right_menu">
+               <li class="menu_item"><a href="#"><img src="img/burger.svg" alt="menu"></a>
+                  <div class="menu_box">
+                     <h2 class="main_text menu-heading">MENU</h2>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">MAN</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Bags</a>
+                        <a class="main_text menu_link" href="#">Denim</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                     </div>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">WOMAN</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Jackets & Coats</a>
+                        <a class="main_text menu_link" href="#">Polos</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                        <a class="main_text menu_link" href="#">Shirts</a>
+                     </div>
+                     <div class="menu_section">
+                        <h2 class="main_text menu_section_heading pink_text">KIDS</h2>
+                        <a class="main_text menu_link" href="#">Accessories</a>
+                        <a class="main_text menu_link" href="#">Jackets & Coats</a>
+                        <a class="main_text menu_link" href="#">Polos</a>
+                        <a class="main_text menu_link" href="#">T-Shirts</a>
+                        <a class="main_text menu_link" href="#">Shirts</a>
+                        <a class="main_text menu_link" href="#">Bags</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="menu_item"><a href="#"><img src="img/contact.svg" alt="personal-cab"></a></li>
+               <li><a href="#"><img src="img/basket.svg" alt="cart"></a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <section class="top_header">
+      <div class="container top_header_box">
+         <h1 class="top_header_heading pink_text">SHOPPING CART</h1>
+      </div>
+   </section>
+   <section class="margin_cart">
+      <div class="container cart_content">
+         <div>
+            <article class="shopping_product">
+               <img src="img/shopping_card1.png" alt="product_photo">
+               <div class="shopping_product_info">
+                  <p class="shopping_product_heading">MANGO PEOPLE T-SHIRT</p>
+                  <a href="#" class="close_card"><img src="img/close_cart.svg" alt="close"></a>
+                  <p class="shopping_product_text">Price: <span class="pink_text">$300</span></p>
+                  <p class="shopping_product_text">Color: Red</p>
+                  <p class="shopping_product_text">Size: Xl</p>
+                  <div class="quantity_number">
+                     <p class="shopping_product_text">Quantity:</p><input type="number" class="quantity_input"
+                        placeholder="2" min="0">
+                  </div>
+               </div>
+            </article>
+            <article class="shopping_product">
+               <img src="img/shopping_card2.png" alt="product_photo">
+               <div class="shopping_product_info">
+                  <p class="shopping_product_heading">MANGO PEOPLE T-SHIRT</p>
+                  <a href="#" class="close_card"><img src="img/close_cart.svg" alt="close"></a>
+                  <p class="shopping_product_text">Price: <span class="pink_text">$300</span></p>
+                  <p class="shopping_product_text">Color: Red</p>
+                  <p class="shopping_product_text">Size: Xl</p>
+                  <div class="quantity_number">
+                     <p class="shopping_product_text">Quantity:</p><input type="number" class="quantity_input"
+                        placeholder="2" min="0">
+                  </div>
+               </div>
+            </article>
+            <div class="button_box">
+               <a href="#" class="button_shopping_cart">CLEAR SHOPPING CART</a>
+               <a href="#" class="button_shopping_cart">CONTINUE SHOPPING</a>
+            </div>
+         </div>
+         <div>
+            <form action="#" class="shopping_ardess">
+               <fieldset class="fieldset_bd">
+                  <legend class="adress_form_heading">SHIPPING ADRESS</legend>
+                  <input type="text" placeholder="Bangladesh" class="form_info">
+                  <input type="text" placeholder="State" class="form_info">
+                  <input type="text" placeholder="Postcode / Zip" class="form_info">
+               </fieldset>
+               <button type="submit" class="adress_form_button">GET A QUOTE</button>
+            </form>
+            <section class="checkout_price_box">
+               <div class="checkout_price_text_box">
+                  <p class="checkout_price_text">SUB TOTAL<span class="checkout_price">$900</span></p>
+                  <p class="checkout_price_total">GRAND TOTAL<span
+                        class="pink_text checkout_price price_weight">$900</span></p>
+               </div>
+               <div><a href="#" class="button_checkout_cart">PROCEED TO CHECKOUT</a></div>
+
+            </section>
+         </div>
+      </div>
+   </section>
+
+
+   <section class="subscribe">
+      <div class="container subscribe__wrap">
+         <div class="subscribe__item">
+            <img class="subscribe__img" src="./img/Intersect.png" width="96" height="96" alt="">
+            <h3 class="subscribe__mini"> “Vestibulum quis porttitor dui! Quisque viverra nunc
+               mi, <span class="subscribe__miniitaly">a pulvinar purus condimentum“</span> </h3>
+         </div>
+         <div class="form__item">
+            <h2 class="form__text"> SUBSCRIBE</h2>
+            <p class="subscribe_text">FOR OUR NEWLETTER AND PROMOTION</p>
+            <form action="#">
+               <div class="form__buttom">
+                  <input class="input__text" placeholder="Enter Your Email" type="email">
+                  <input class="submit" value="Subscribe" type="submit">
+               </div>
+            </form>
+         </div>
+      </div>
+   </section>
+
+</main>
+<footer class="footer">
+   <div class="container footer_box">
+      <p class="footer_copy_text">© 2021 Brand All Rights Reserved.</p>
+      <div class="footer_iconbox">
+
+         <a href="#" class="pic_link icon_link">
+            <div class="icon">
+               <img src="./img/footer_icon1.png" alt="">
+            </div>
+         </a>
+         <a href="#" class="pic_link icon_link">
+            <div class="icon">
+               <img src="./img/footer_icon2.png" alt="">
+            </div>
+         </a>
+         <a href=" #" class="pic_link icon_link">
+            <div class="icon">
+               <img src="./img/footer_icon3.png" alt="">
+            </div>
+         </a>
+         <a href="#" class="pic_link icon_link">
+            <div class="icon">
+               <img src="./img/footer_icon4.png" alt="">
+            </div>
+         </a>
+      </div>
+   </div>
+</footer>
