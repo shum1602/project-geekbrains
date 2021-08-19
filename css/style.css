@@ -4,8 +4,26 @@
   padding: 0;
 }
 
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .body {
+  height: 100%;
   font-family: 'Lato', sans-serif;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 
 .container {
@@ -197,6 +215,89 @@
 
 .margin_cart {
   margin-bottom: 128px;
+}
+
+.margin_registration {
+  margin: 64px 0 96px;
+}
+
+.registration_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gender_choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 31px 0 33px;
+}
+
+.gender_text {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 13px;
+  color: #000000;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.loyalty_box {
+  width: 650px;
+}
+
+.registration_text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.check_margin {
+  margin-right: 23px;
+}
+
+.form_info:focus {
+  outline: none;
+}
+
+.fieldset_bd {
+  border: none;
+}
+
+.pass_info {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  color: #B1B1B1;
+  margin: 16px 0 39px;
+}
+
+.button_registration {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border: 1px solid #F16D7F;
+  background-color: #F16D7F;
+  padding: 16px 0;
+  width: 167px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button_registration:hover {
+  color: #F16D7F;
+  border: 1px solid #F16D7F;
+  background-color: #FFFFFF;
+}
+
+.fa-long-arrow-alt-right {
+  margin-left: 20px;
 }
 
 .cart_content {
@@ -1129,6 +1230,13 @@
           align-items: center;
   margin: 108px 0 0 0;
   width: 360px;
+}
+
+.delivery__item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .delivery__item h3 {

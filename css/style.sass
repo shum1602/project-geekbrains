@@ -4,9 +4,15 @@
    margin: 0
    padding: 0
 
+.wrapper
+   min-height: 100%
+   display: flex
+   flex-direction: column
 .body
+   height: 100%
    font-family: 'Lato', sans-serif
-
+.main
+   flex: 1 1 auto
 .container
    font-family: 'Lato', sans-serif
    max-width: 1160px
@@ -146,6 +152,68 @@
    font-weight: 700
 .margin_cart
    margin-bottom: 128px
+.margin_registration
+   margin: 64px 0 96px
+
+.registration_box
+   display: flex
+   justify-content: space-between
+
+.gender_choose
+   display: flex
+   margin: 31px 0 33px
+
+.gender_text
+   font-weight: 300
+   font-size: 11px
+   line-height: 13px
+   color: #000000
+   margin-left: 10px
+   margin-right: 20px
+
+.loyalty_box
+   width: 650px
+
+.registration_text
+   font-weight: 300
+   font-size: 24px
+   line-height: 29px
+   color: #000000
+   margin-bottom: 16px
+
+.check_margin
+   margin-right: 23px
+
+.form_info:focus
+   outline: none
+
+.fieldset_bd
+   border: none
+
+.pass_info
+   font-weight: 300
+   font-size: 13px
+   line-height: 16px
+   color: #B1B1B1
+   margin: 16px 0 39px
+
+.button_registration
+   font-size: 14px
+   line-height: 17px
+   color: #FFFFFF
+   border: 1px solid #F16D7F
+   background-color: #F16D7F
+   padding: 16px 0
+   width: 167px
+   transition: 0.2s
+
+.button_registration:hover
+   color: #F16D7F
+   border: 1px solid #F16D7F
+   background-color: #FFFFFF
+
+.fa-long-arrow-alt-right
+   margin-left: 20px
 
 .cart_content
    display: flex
@@ -787,6 +855,9 @@
       align-items: center
       margin: 108px 0 0 0
       width: 360px
+   &__item:hover
+      transform: scale(1.1)
+      transition: 0.2s
 
    &__item h3
       font-size: 19.96px
